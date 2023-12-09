@@ -1,0 +1,23 @@
+Create project in empty dir:
+
+1. Create folder for project
+2. Create venv "python -m venv venv"
+3. Activate virtual environment linux/macos: "source venv/bin/activate" windows: "venv/scripts/activate"
+4. Install dependencies pip install django djangorestframework pillow drf-spectacular
+5. Create file req.txt with all dependencies pip freeze >req.txt
+6. Start django project django-admin startproject core .
+
+
+Django commands:
+
+python manage.py startapp <app_name> -- create folder with django app
+python manage.py runserver -- run application
+python manage.py makemigrations -- create migration file with some change in models for apply to database
+python manage.py migrate -- apply all migrations files to database
+
+
+Development django-app:
+
+1. Create file urls.py with "urlpatterns"
+2. Include <app_name> to settings.py -> INSTALLED_APPS
+
