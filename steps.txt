@@ -21,3 +21,11 @@ Development django-app:
 1. Create file urls.py with "urlpatterns"
 2. Include <app_name> to settings.py -> INSTALLED_APPS
 
+
+
+GIT:
+1. git init -- for initialize local repository
+2. create .gitignore and add some file who not uploaded to repository
+3. git add . (dot this git add "all")
+4. git commit -m "Commit text"
+
